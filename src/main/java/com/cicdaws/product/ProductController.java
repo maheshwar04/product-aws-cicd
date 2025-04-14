@@ -17,7 +17,7 @@ public class ProductController {
 
   @GetMapping("/Message")
   public String getMessage() {
-    return "Hello Maheshwar from aws ecr, ecs, code build , code pipeline using github";
+    return "Hello Maheshwar from aws ecr,ecs, code build , code pipeline using github";
   }
 
   @PostMapping
