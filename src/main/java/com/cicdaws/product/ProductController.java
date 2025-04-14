@@ -15,6 +15,11 @@ public class ProductController {
     return products;
   }
 
+  @GetMapping("/Message")
+  public String getMessage() {
+    return "Hello from aws ecr ecs code build code pipeline using github";
+  }
+
   @PostMapping
   public String addProduct(@RequestBody Product product) {
     products.add(product);
